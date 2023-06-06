@@ -1,0 +1,66 @@
+                                              Angular -Front end technology
+
+                                                    Basic commands 
+                                              -----------------------------
+                                       1.creation of angular-ng new project name
+
+                                       2.To run angular project-ng serve --open
+
+                                       3.component creation - ng g c component-name
+
+                                       4.Service creation - ng g s service-name
+
+                                       
+
+
+                                                   Basic Concepts
+                                               ---------------------  
+                                       1.Module -To import third party library -root Module -AppModule
+
+                                       2.Components -html,css,ts
+
+                                       3.To set up path for component - App routing module file
+
+                                       4.routing-outlet selector
+
+                                       5.Angular services  
+
+                                       6.Dependency injention -inside contructor
+                                          syntax:access specifier object-name:dependent-class-name 
+
+                                       7.asynchronous - rxjs - Observable-subscribe()  
+
+                                       8.Data binding - sharing data inside a component
+                                           8.1  One way binding
+                                                 8.1.1 component to view
+                                                        1.String interpolation - {{variable-name}}
+                                                        2.Property binding - [attribute] = "property-name"
+
+                                                 8.1.2 view to component
+                                                   8.1.2.1 Event Binding - (event) = "function call"
+                                                   8.1.2.2 Event Binding using $event - (event) = "function-call($event)"
+                                                   8.1.2.3 Templete reference variable, #variable-name
+
+                                           8.2  Two way binding
+                                                8.2.1  ngModel (Templete driven angular forms) 
+                                                  -Import FormsModule , [(ngModel)] ="variable name"
+                                                  -ngSubmit - apply it in form tag , (ngSubmit) ="function call"
+
+
+                                       9.Angular directives - To dominate DOM
+                                          9.1 Component Directive
+                                          9.2 Structural Directive -  to add/remove html elements
+                                              1. *ngIf ="condition"
+                                              2. *ngFor = "let variable-name of array-name"
+
+                                      10.ActivatedRoute - Provides access to information about a route associated with
+                                      
+                                      11.Router class - use navigateByUrl() to navigate one to another using ts
+
+                                      12.Pipe - to convert user input to another format
+
+
+                                        
+
+                                                
+                                                        
